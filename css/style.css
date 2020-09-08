@@ -24,11 +24,14 @@ header{
 }
 
 .container{
-    /* Non ho capito come funzionano le prime due proprietà ... */
-    display:table;
-    clear:both;
     width: 100%;
     border: dotted 1px;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear:both; /* Indica di paartire con una nuova riga dopo di esso (non vuole elementi ad entrambi i lati)*/
 }
 
 aside{
