@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 95%;
+    margin:auto;
+    margin-top: 10px;
+    background-color: lightgrey;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: yellow;
+    height: 100px;
+}
+
+aside{
+    background-color: violet;
+}
+
+main{
+    background-color: purple;
+}
+
+footer{
+    background-color: lightblue;
+}
