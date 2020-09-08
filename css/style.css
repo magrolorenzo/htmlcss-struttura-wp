@@ -6,8 +6,10 @@
 
 .wrapper{
     width: 95%;
+    height: 95%;
     margin:auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: lightgrey;
     text-align: center;
     font-family: sans-serif;
@@ -15,17 +17,54 @@
 
 header{
     background-color: yellow;
-    height: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: solid 2px;
+}
+
+.container{
+    contant:"";
+    display:table;
+    clear:both;
 }
 
 aside{
     background-color: violet;
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: solid 2px;
+
 }
 
+.left{
+    height: 400px;
+    float: left;
+}
+
+.right-top{
+    height: 250px;
+    float: left;
+}
+
+.right-bottom{
+    height: 250px;
+    float: right;
+}
 main{
+    height: 600px;
+    float: left;
+    width: calc(40% - 20px);
+    margin:10px;
+    padding: 20px;
     background-color: purple;
+    border: solid 2px;
 }
 
 footer{
     background-color: lightblue;
+    margin-top: 10px;
+    padding: 20px;
+    border: solid 2px;
 }
